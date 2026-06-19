@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#111"/><stop offset="100%" stop-color="#444"/></linearGradient></defs>
+<rect width="900" height="560" fill="url(#g)"/><path d="M0 420 L900 225 L900 560 L0 560 Z" fill="#e50914" opacity=".92"/>
+<text x="70" y="205" font-family="Arial" font-size="100" fill="#e50914">▔</text>
+<text x="70" y="335" font-family="Arial" font-size="52" font-weight="900" fill="#fff">BRYZA</text>
+<text x="70" y="395" font-family="Arial" font-size="27" fill="#eee">systemy rynnowe PVC</text></svg>
