@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AR-KA Dachy S.C. - uslugi dekarskie, orynnowanie i katalog produktow dachowych w Jedlinsku, Radomiu i okolicy.">
+  <title>AR-KA Dachy S.C. | Dachy, rynny i materialy</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="topbar">
+    <div class="topbar__inner">
+      <a href="https://maps.google.com/?q=Warszawska+31,+26-660+Jedli%C5%84sk" target="_blank" rel="noreferrer">Warszawska 31, 26-660 Jedlińsk</a>
+      <a href="tel:888249903">888 249 903</a>
+      <span>Jedlińsk, Radom i okolice</span>
+    </div>
+  </div>
+
+  <header class="header">
+    <a href="#start" class="logo" aria-label="AR-KA Dachy - strona glowna">
+      <img src="assets/logo-arka.png" alt="AR-KA Dachy">
+    </a>
+    <button class="hamburger" type="button" aria-label="Otworz menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav id="main-nav" aria-label="Glowne menu">
+      <a class="active" href="#start">Start</a>
+      <a href="#uslugi">Usługi</a>
+      <a href="#orynnowanie">Orynnowanie</a>
+      <a href="#producenci">Producenci</a>
+      <a href="#katalog">Katalog</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="header-btn" href="#kontakt">Darmowa wycena</a>
+  </header>
+
+  <main>
+    <section class="hero" id="start">
+      <div class="hero__media" aria-hidden="true"></div>
+      <div class="hero__content">
+        <div class="hero__copy">
+          <span class="eyebrow">AR-KA Dachy S.C.</span>
+          <h1>Dachy, rynny i materiały dobrane pod konkretny dom</h1>
+          <p>Wykonujemy prace dekarskie, montujemy orynnowanie i pomagamy dobrać pokrycia, zamocowania oraz chemię budowlaną. Lokalnie, konkretnie i z pełną wyceną przed startem.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="tel:888249903">Zadzwoń: 888 249 903</a>
+            <a class="btn btn--ghost" href="#katalog">Sprawdź katalog</a>
+          </div>
+        </div>
+
+        <form class="lead" id="kontakt">
+          <span class="lead__tag">Szybka wycena</span>
+          <h2>Napisz, czego potrzebujesz</h2>
+          <label>
+            <span>Imię</span>
+            <input name="name" autocomplete="name" required>
+          </label>
+          <label>
+            <span>Telefon</span>
+            <input name="phone" inputmode="tel" autocomplete="tel" required>
+          </label>
+          <label>
+            <span>E-mail opcjonalnie</span>
+            <input name="email" type="email" autocomplete="email">
+          </label>
+          <label>
+            <span>Wiadomość</span>
+            <textarea name="message" rows="4"></textarea>
+          </label>
+          <button class="btn btn--primary" type="submit">Wyślij zapytanie</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="benefits" aria-label="Atuty AR-KA Dachy">
+      <article>
+        <span>01</span>
+        <h2>Pomiar i wycena</h2>
+        <p>Najpierw ustalamy zakres, materiały i realny koszt prac.</p>
+      </article>
+      <article>
+        <span>02</span>
+        <h2>Montaż bez chaosu</h2>
+        <p>Prace dekarskie, obróbki i rynny prowadzone jednym planem.</p>
+      </article>
+      <article>
+        <span>03</span>
+        <h2>Sprawdzone marki</h2>
+        <p>Dobieramy produkty pod dach, budżet i warunki na miejscu.</p>
+      </article>
+      <article>
+        <span>04</span>
+        <h2>Lokalny kontakt</h2>
+        <p>Jedlińsk, Radom i okolice - szybciej z dojazdem i decyzją.</p>
+      </article>
+    </section>
+
+    <section class="section services" id="uslugi">
+      <div class="section__head">
+        <span class="eyebrow">Nasza oferta</span>
+        <h2>Kompleksowe usługi dekarskie</h2>
+        <p>Od konstrukcji i pokrycia po detale, które decydują o szczelności dachu.</p>
+      </div>
+      <div class="service-grid">
+        <article>
+          <img src="assets/images/wiezba.svg" alt="">
+          <h3>Więźby dachowe</h3>
+          <p>Solidne konstrukcje dachowe z dopasowaniem do projektu i pokrycia.</p>
+        </article>
+        <article>
+          <img src="assets/images/pokrycia.svg" alt="">
+          <h3>Pokrycia dachowe</h3>
+          <p>Blacha, dachówka, panele i akcesoria dobrane do budynku.</p>
+        </article>
+        <article>
+          <img src="assets/images/obrobki.svg" alt="">
+          <h3>Obróbki blacharskie</h3>
+          <p>Okap, kosze, kominy, pasy i detale wykonane szczelnie oraz estetycznie.</p>
+        </article>
+        <article>
+          <img src="assets/images/remonty.svg" alt="">
+          <h3>Remonty dachów</h3>
+          <p>Naprawa, modernizacja i wymiana pokrycia bez niepotrzebnej zwłoki.</p>
+        </article>
+        <article>
+          <img src="assets/images/okna.svg" alt="">
+          <h3>Okna dachowe</h3>
+          <p>Montaż i uszczelnianie okien z dopracowanym odprowadzeniem wody.</p>
+        </article>
+        <article>
+          <img src="assets/images/orynnowanie.svg" alt="">
+          <h3>Orynnowanie</h3>
+          <p>Dobór i montaż systemu rynnowego z kontrolą spadków i szczelności.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="guttering" id="orynnowanie">
+      <div class="guttering__copy">
+        <span class="eyebrow">Kompleksowy montaż</span>
+        <h2>Orynnowanie dachu od pomiaru po sprawdzenie szczelności</h2>
+        <p>Wykonujemy montaż i wymianę systemów rynnowych PVC oraz stalowych. Dobieramy średnice, elementy i sposób prowadzenia odpływu pod konkretną połać oraz układ budynku.</p>
+        <ul>
+          <li>Montaż rynien PVC i stalowych</li>
+          <li>Systemy Bryza i KJG</li>
+          <li>Wymiana starego orynnowania</li>
+          <li>Obróbki przy okapie i pasie nadrynnowym</li>
+          <li>Kontrola spadków oraz szczelności</li>
+        </ul>
+        <a class="btn btn--primary" href="#kontakt">Poproś o wycenę</a>
+      </div>
+      <aside class="guttering__steps">
+        <h3>Co obejmuje usługa?</h3>
+        <ol>
+          <li><b>Pomiar</b><span>Długość okapu, spadki i punkty odpływu.</span></li>
+          <li><b>Dobór systemu</b><span>Bryza, KJG lub inny wariant pod budżet.</span></li>
+          <li><b>Wycena</b><span>Materiał i robocizna w jednym zestawieniu.</span></li>
+          <li><b>Montaż</b><span>Haki, rynny, rury spustowe, kolana i obejmy.</span></li>
+        </ol>
+      </aside>
+    </section>
+
+    <section class="section producers" id="producenci">
+      <div class="section__head">
+        <span class="eyebrow">Producenci</span>
+        <h2>Sprawdzone marki w ofercie</h2>
+        <p>Każda marka ma bezpośredni odnośnik do oficjalnego katalogu, materiałów do pobrania albo strony produktowej producenta.</p>
+      </div>
+      <div class="producer-grid">
+        <article><img src="assets/images/blachotrapez.svg" alt=""><h3>Blachotrapez</h3><p>Pokrycia dachowe.</p><a href="https://www.blachotrapez.eu/pl/pliki/foldery" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></article>
+        <article><img src="assets/images/polstal.svg" alt=""><h3>Polstal</h3><p>Blachy dachowe.</p><a href="https://www.polstal.com.pl/fb/2025_1/index.html" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></article>
+        <article><img src="assets/images/florian.svg" alt=""><h3>Florian</h3><p>Pokrycia dachowe.</p><a href="https://floriancentrum.com.pl/pliki-do-pobrania-kutno/" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></article>
+        <article><img src="assets/images/bryza.svg" alt=""><h3>Bryza</h3><p>Systemy rynnowe PVC.</p><a href="https://rynnybryza.pl/do-pobrania/" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></article>
+        <article><img src="assets/images/kjg.svg" alt=""><h3>KJG</h3><p>Rynny stalowe.</p><a href="https://www.kjg.pl/do-pobrania/katalogi" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></article>
+        <article><img src="assets/images/stalco.svg" alt=""><h3>STALCO</h3><p>Narzędzia i BHP.</p><a href="https://stalco.pl/pl/4909-odziez-i-akcesoria-bhp" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></article>
+        <article><img src="assets/images/klimas.svg" alt=""><h3>Klimas Wkręt-met</h3><p>Wkręty i zamocowania.</p><a href="https://www.wkret-met.com/katalogi/" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></article>
+        <article><img src="assets/images/soudal.svg" alt=""><h3>Soudal</h3><p>Kleje i uszczelniacze.</p><a href="https://www.soudal.pl/pro/produkty" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></article>
+        <article><img src="assets/images/gunnex.svg" alt=""><h3>Gunnex</h3><p>Izolacje i akcesoria.</p><a href="https://gunnex.pl/web/files/37242/KatalogproduktowGUNNEX2022.pdf" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></article>
+        <article><img src="assets/images/krono-plast.svg" alt=""><h3>Krono-Plast</h3><p>Akcesoria dachowe.</p><a href="https://kronoplast.pl/do-pobrania/" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></article>
+      </div>
+    </section>
+
+    <section class="section catalog" id="katalog">
+      <div class="section__head">
+        <span class="eyebrow">Sprzedaż / katalog</span>
+        <h2>Katalogi producentów</h2>
+        <p>Wybierz markę lub temat i przejdź bezpośrednio do oficjalnego katalogu PDF albo strony produktowej producenta. Linki otwierają się w nowej karcie.</p>
+      </div>
+      <div class="filters" aria-label="Filtry katalogu">
+        <button class="filter active" type="button" data-group="all">Wszystko</button>
+        <button class="filter" type="button" data-group="STALCO">STALCO</button>
+        <button class="filter" type="button" data-group="Zamocowania">Zamocowania</button>
+        <button class="filter" type="button" data-group="Chemia">Chemia</button>
+        <button class="filter" type="button" data-group="Pokrycia">Pokrycia</button>
+        <button class="filter" type="button" data-group="Orynnowanie">Orynnowanie</button>
+        <button class="filter" type="button" data-group="Akcesoria">Akcesoria</button>
+        <label class="search">
+          <span>Szukaj katalogu</span>
+          <input id="search" placeholder="np. Stalco BHP, rynny, PDF">
+        </label>
+      </div>
+      <div class="catalog-grid">
+        <article class="catalog-card" data-group="STALCO" data-name="stalco bhp katalog odzież rękawice okulary kaski obuwie ochronne"><img src="assets/images/stalco.svg" alt="Stalco BHP"><div><small>STALCO</small><h3>Stalco BHP</h3><p>Bezpośrednio do katalogu odzieży ochronnej, rękawic, okularów, kasków i akcesoriów BHP.</p><a href="https://stalco.pl/pl/4909-odziez-i-akcesoria-bhp" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></div></article>
+        <article class="catalog-card" data-group="STALCO" data-name="stalco narzędzia ręczne katalog młotki klucze miary poziomice szczypce"><img src="assets/images/stalco.svg" alt="Stalco narzędzia"><div><small>STALCO</small><h3>Stalco narzędzia</h3><p>Narzędzia ręczne i warsztatowe: młotki, klucze, miary, poziomice, szczypce i wyposażenie.</p><a href="https://stalco.pl/pl/3482-narzedzia-reczne" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></div></article>
+        <article class="catalog-card" data-group="STALCO" data-name="stalco elektronarzędzia katalog wiertarki wkrętarki szlifierki pilarki akumulatorowe"><img src="assets/images/stalco.svg" alt="Stalco elektronarzędzia"><div><small>STALCO</small><h3>Stalco elektronarzędzia</h3><p>Elektronarzędzia, sprzęt akumulatorowy oraz urządzenia do prac budowlanych i montażowych.</p><a href="https://stalco.pl/pl/3986-elektronarzedzia" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></div></article>
+        <article class="catalog-card" data-group="STALCO" data-name="stalco akcesoria osprzęt do elektronarzędzi bity wiertła tarcze brzeszczoty koronki"><img src="assets/images/stalco.svg" alt="Stalco akcesoria"><div><small>STALCO</small><h3>Stalco akcesoria</h3><p>Osprzęt do elektronarzędzi: bity, wiertła, tarcze, brzeszczoty, koronki i akcesoria.</p><a href="https://stalco.pl/pl/4461-osprzet-do-elektronarzedzi" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></div></article>
+        <article class="catalog-card" data-group="Zamocowania" data-name="klimas wkręt-met katalogi wkręty ciesielskie dekarskie kotwy kołki zamocowania"><img src="assets/images/klimas.svg" alt="Klimas Wkręt-met"><div><small>Klimas Wkręt-met</small><h3>Katalogi Klimas</h3><p>Oficjalne katalogi wkrętów, zamocowań mechanicznych, chemicznych i rozwiązań montażowych.</p><a href="https://www.wkret-met.com/katalogi/" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></div></article>
+        <article class="catalog-card" data-group="Chemia" data-name="soudal produkty katalog pianki kleje uszczelniacze silikony akryle chemia budowlana"><img src="assets/images/soudal.svg" alt="Soudal"><div><small>Soudal</small><h3>Produkty Soudal</h3><p>Oficjalna strona produktowa pian, klejów, uszczelniaczy i chemii budowlanej Soudal.</p><a href="https://www.soudal.pl/pro/produkty" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></div></article>
+        <article class="catalog-card" data-group="Pokrycia" data-name="polstal katalog blachy dachowe blachodachówki trapezy elewacje obróbki"><img src="assets/images/polstal.svg" alt="Polstal"><div><small>Pokrycia</small><h3>Polstal</h3><p>Internetowy katalog pokryć dachowych, blach trapezowych, elewacji i obróbek Polstal.</p><a href="https://www.polstal.com.pl/fb/2025_1/index.html" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></div></article>
+        <article class="catalog-card" data-group="Pokrycia" data-name="florian katalogi pliki do pobrania pokrycia dachowe blachy obróbki akcesoria"><img src="assets/images/florian.svg" alt="Florian"><div><small>Pokrycia</small><h3>Florian</h3><p>Oficjalna strona Florian Centrum z aktualnymi katalogami, ulotkami i plikami do pobrania.</p><a href="https://floriancentrum.com.pl/pliki-do-pobrania-kutno/" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></div></article>
+        <article class="catalog-card" data-group="Pokrycia" data-name="blachotrapez foldery katalogi produkty blachodachówki panele dachowe blachy trapezowe"><img src="assets/images/blachotrapez.svg" alt="Blachotrapez"><div><small>Pokrycia</small><h3>Blachotrapez</h3><p>Oficjalna strona z folderami i katalogami produktów Blachotrapez do pobrania.</p><a href="https://www.blachotrapez.eu/pl/pliki/foldery" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></div></article>
+        <article class="catalog-card" data-group="Orynnowanie" data-name="bryza katalog systemy rynnowe pvc rynny podsufitka do pobrania"><img src="assets/images/bryza.svg" alt="Bryza"><div><small>Orynnowanie</small><h3>Bryza</h3><p>Oficjalna strona z katalogami i materiałami do pobrania dla systemów rynnowych Bryza.</p><a href="https://rynnybryza.pl/do-pobrania/" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></div></article>
+        <article class="catalog-card" data-group="Orynnowanie" data-name="kjg katalogi rynny stalowe pokrycia dachowe system rynnowy do pobrania"><img src="assets/images/kjg.svg" alt="KJG"><div><small>Orynnowanie</small><h3>KJG</h3><p>Oficjalna strona KJG z katalogami do pobrania dla rynien, pokryć dachowych i akcesoriów.</p><a href="https://www.kjg.pl/do-pobrania/katalogi" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></div></article>
+        <article class="catalog-card" data-group="Akcesoria" data-name="gunnex katalog pdf izolacje dachy skośne dachy płaskie geosyntetyki akcesoria"><img src="assets/images/gunnex.svg" alt="Gunnex"><div><small>Akcesoria</small><h3>Gunnex</h3><p>Oficjalny katalog PDF Gunnex z izolacjami, geosyntetykami i akcesoriami budowlanymi.</p><a href="https://gunnex.pl/web/files/37242/KatalogproduktowGUNNEX2022.pdf" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></div></article>
+        <article class="catalog-card" data-group="Akcesoria" data-name="krono-plast katalogi do pobrania kominki wentylacyjne akcesoria dachowe cennik"><img src="assets/images/krono-plast.svg" alt="Krono-Plast"><div><small>Akcesoria</small><h3>Krono-Plast</h3><p>Oficjalna strona do pobrania z katalogami, cennikami i akcesoriami dachowymi Krono-Plast.</p><a href="https://kronoplast.pl/do-pobrania/" target="_blank" rel="noopener noreferrer">Otwórz katalog</a></div></article>
+      </div>
+      <p class="empty-state" hidden>Brak wyników dla wybranych filtrów.</p>
+    </section>
+
+    <section class="bottom">
+      <div>
+        <small>AR-KA Dachy</small>
+        <h2>Szukasz dekarza albo materiałów budowlanych?</h2>
+        <p>Zadzwoń i zapytaj o usługę, dostępność produktów albo wycenę kompletnego zestawu materiałów.</p>
+      </div>
+      <a class="contact-box" href="tel:888249903">
+        <span>Zadzwoń</span>
+        <b>888 249 903</b>
+      </a>
+      <a class="contact-box" href="https://maps.google.com/?q=Warszawska+31,+26-660+Jedli%C5%84sk" target="_blank" rel="noreferrer">
+        <span>Adres</span>
+        <b>Warszawska 31<br>26-660 Jedlińsk</b>
+      </a>
+      <img src="assets/logo-arka.png" alt="AR-KA Dachy">
+    </section>
+  </main>
+
+  <footer>
+    <span>© AR-KA Dachy S.C.</span>
+    <span>Usługi dekarskie, orynnowanie i katalog produktów</span>
+  </footer>
+</body>
+</html>
